@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Мемы</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title >Мемы</title>
 </head>
 <body>
+<h1 id="page-header">Мемасики</h1>
 <h2>Для получения <a href="memes.html">мемов</a> на твой вкус заполни форму ниже:</h2>
     <form action="/handler.php" method="post">
-        <label for="clientName">Имя/Ник:</label>
+        <p><label for="clientName">Имя/Ник:</label>
         <br/><input type="text" id="clientName" name="clientName"/>
+        </p>
         <p>
             <label for="clientSex">Пол:</label>
             <br/><input type="radio" value="Мужской" name="clientSex">Мужской

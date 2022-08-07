@@ -1,0 +1,50 @@
+p {
+ color: DarkSlateGray;
+ font-weight: bold;
+ font-family: Bradley Hand, cursive;
+}
+#page-header {
+ color: CadetBlue;
+ font-size: 40px;
+ font-weight: bold;
+ font-family: Bradley Hand, cursive;
+}
+h2 {
+ font-weight: bold;
+ color: SteelBlue;
+}
+[href] {
+ color: LightSeaGreen;
+}
+body {
+ background: Lavender;
+}
+table {
+ text-align: center;
+ background: Thistle;
+}
+table tbody {
+ font-family: Bradley Hand, cursive;
+}
+ table thead {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Bradley Hand, cursive;
+ }
+form {
+ height: 550px;
+ width: 700px;
+ padding-left: 15px;
+ border: 2px solid black;
+ background: Thistle;
+}
+[placeholder] {
+ color: DimGray;
+}
+li {
+font-family: URW Chancery L, cursive;
+}
+[id="offer"]{
+ text-align: center;
+ font-size: 40px;
+}
