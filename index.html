@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мемы</title>
+</head>
+<body>
+<h2>Для получения <a href="memes.html">мемов</a> на твой вкус заполни форму ниже:</h2>
+    <form action="/handler.php" method="post">
+        <label for="clientName">Имя/Ник:</label>
+        <br/><input type="text" id="clientName" name="clientName"/>
+        <p>
+            <label for="clientSex">Пол:</label>
+            <br/><input type="radio" value="Мужской" name="clientSex">Мужской
+            <input type="radio" value="Женский" name="clientSex">Женский
+            <input checked="checked" type="radio" value="Другое" name="clientSex">Другое
+        </p>
+        <p>
+            <label for="clientQualities">Твои качества:</label>
+            <br/><input type="checkbox" name="clientQualities" value="Доброта"/>Доброта
+            <input type="checkbox" name="clientQualities" value="Осторожность"/>Осторожность
+            <input type="checkbox" name="clientQualities" value="Мстительность"/>Мстительность
+            <input type="checkbox" name="clientQualities" value="Болтливость"/>Болтливость
+            <input type="checkbox" name="clientQualities" value="Смелость"/>Смелость
+            <input type="checkbox" name="clientQualities" value="Трусость"/>Трусость
+            <br/><input type="checkbox" name="clientQualities" value="Лень"/>Лень
+            <input type="checkbox" name="clientQualities" value="Оптимизм"/>Оптимизм
+            <input type="checkbox" name="clientQualities" value="Медлительность"/>Медлительность
+            <input type="checkbox" name="clientQualities" value="Терпеливость"/>Терпеливость
+            <input type="checkbox" name="clientQualities" value="Вдумчивость"/>Вдумчивость
+            <input type="checkbox" name="clientQualities" value="Честность"/>Честность
+            <br/><a>Другое:</a>
+            <input type="text" id="clientQualities" name="clientQualities" placeholder="твой вариант"/>
+        </p>
+        <p>
+            <label for="clientAnimals">Любимые животные</label>(выберите несколько ответов):
+            <br/>
+            <select name="clientAnimals" size="3" multiple>
+                <option name="clientAnimals" value="Собака">Собака</option>
+                <option name="clientAnimals" value="Кошка">Кошка</option>
+                <option name="clientAnimals" value="Голубь">Голубь</option>
+                <option name="clientAnimals" value="Капибара">Капибара</option>
+                <option name="clientAnimals" value="Змея">Змея</option>
+                <option name="clientAnimals" value="Волк">Волк</option>
+                <option name="clientAnimals" value="Гусь">Гусь</option>
+                <option name="clientAnimals" value="Лягушка">Лягушка</option>
+                <option name="clientAnimals" value="Динозавр">Динозавр</option>
+                <option name="clientAnimals" value="Панда">Панда</option>
+                <option name="clientAnimals" value="Попугай">Попугай</option>
+                <option name="clientAnimals" value="Рыба-капля">Рыба-капля</option>
+            </select>
+        </p>
+        <p>
+            <label for="clientToday">Кто ты сегодня?</label>
+            <select name="clientToday">
+                <option name="clientToday" value="Уставшая булочка">Уставшая булочка</option>
+                <option name="clientToday" value="Счастливый пирожок">Счастливый пирожок</option>
+                <option name="clientToday" value="Дохлый мух">Дохлый мух</option>
+                <option name="clientToday" value="Наташа">Наташа</option>
+                <option name="clientToday" value="Одинокий волк">Одинокий волк</option>
+                <option name="clientToday" value="Вареное яичко<">Вареное яичко</option>
+                <option name="clientToday" value="Илюша">Илюша</option>
+                <option name="clientToday" value="Голодный пузанчик">Голодный пузанчик</option>
+                <option name="clientToday" value="Злая зефирка">Злая зефирка</option>
+                <option name="clientToday" value="Неуклюжая пироженка">Неуклюжая пироженка</option>
+                <option name="clientToday" value="Обиженая печенька">Обиженая печенька</option>
+            </select>
+        </p>
+        <p>
+            <label for="clientAbout">О себе:</label>
+            <br/><textarea name="clientAbout" rows="5" cols="80" placeholder="Всего несколько строк.."></textarea>
+        </p>
+        <p>
+            <button type="submit">Подобрать мемы</button>
+        </p>
+    </form>
+</body>
+</html>
