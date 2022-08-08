@@ -14,64 +14,64 @@
         </p>
         <p>
             <label for="clientSex">Пол:</label>
-            <br/><input type="radio" value="Мужской" name="clientSex">Мужской
-            <input type="radio" value="Женский" name="clientSex">Женский
-            <input checked="checked" type="radio" value="Другое" name="clientSex">Другое
+            <br/><input type="radio" id="clientSex" value="Male" name="clientSex">Мужской
+            <input type="radio" id="clientSex" value="Female" name="clientSex">Женский
+            <input checked="checked" id="clientSex" type="radio" value="Other" name="clientSex">Другое
         </p>
         <p>
             <label for="clientQualities">Твои качества:</label>
-            <br/><input type="checkbox" name="clientQualities" value="Доброта"/>Доброта
-            <input type="checkbox" name="clientQualities" value="Осторожность"/>Осторожность
-            <input type="checkbox" name="clientQualities" value="Мстительность"/>Мстительность
-            <input type="checkbox" name="clientQualities" value="Болтливость"/>Болтливость
-            <input type="checkbox" name="clientQualities" value="Смелость"/>Смелость
-            <input type="checkbox" name="clientQualities" value="Трусость"/>Трусость
-            <br/><input type="checkbox" name="clientQualities" value="Лень"/>Лень
-            <input type="checkbox" name="clientQualities" value="Оптимизм"/>Оптимизм
-            <input type="checkbox" name="clientQualities" value="Медлительность"/>Медлительность
-            <input type="checkbox" name="clientQualities" value="Терпеливость"/>Терпеливость
-            <input type="checkbox" name="clientQualities" value="Вдумчивость"/>Вдумчивость
-            <input type="checkbox" name="clientQualities" value="Честность"/>Честность
+            <br/><input type="checkbox" id="clientQualities" name="clientQualities" value="kindness"/>Доброта
+            <input type="checkbox" id="clientQualities" name="clientQualities" value="caution"/>Осторожность
+            <input type="checkbox" id="clientQualities" name="clientQualities" value="revenge"/>Мстительность
+            <input type="checkbox" id="clientQualities" name="clientQualities" value="talkativeness"/>Болтливость
+            <input type="checkbox" id="clientQualities" name="clientQualities" value="сourage"/>Смелость
+            <input type="checkbox" id="clientQualities" name="clientQualities" value="cowardice"/>Трусость
+            <br/><input type="checkbox" id="clientQualities" name="clientQualities" value="laziness"/>Лень
+            <input type="checkbox" id="clientQualities" name="clientQualities" value="optimism"/>Оптимизм
+            <input type="checkbox" id="clientQualities" name="clientQualities" value="slowness"/>Медлительность
+            <input type="checkbox" id="clientQualities" name="clientQualities" value="patience"/>Терпеливость
+            <input type="checkbox" id="clientQualities" name="clientQualities" value="thoughtfulness"/>Вдумчивость
+            <input type="checkbox" id="clientQualities" name="clientQualities" value="honesty"/>Честность
             <br/><a>Другое:</a>
             <input type="text" id="clientQualities" name="clientQualities" placeholder="твой вариант"/>
         </p>
         <p>
             <label for="clientAnimals">Любимые животные</label>(выберите несколько ответов):
             <br/>
-            <select name="clientAnimals" size="3" multiple>
-                <option name="clientAnimals" value="Собака">Собака</option>
-                <option name="clientAnimals" value="Кошка">Кошка</option>
-                <option name="clientAnimals" value="Голубь">Голубь</option>
-                <option name="clientAnimals" value="Капибара">Капибара</option>
-                <option name="clientAnimals" value="Змея">Змея</option>
-                <option name="clientAnimals" value="Волк">Волк</option>
-                <option name="clientAnimals" value="Гусь">Гусь</option>
-                <option name="clientAnimals" value="Лягушка">Лягушка</option>
-                <option name="clientAnimals" value="Динозавр">Динозавр</option>
-                <option name="clientAnimals" value="Панда">Панда</option>
-                <option name="clientAnimals" value="Попугай">Попугай</option>
-                <option name="clientAnimals" value="Рыба-капля">Рыба-капля</option>
+            <select id="clientAnimals" name="clientAnimals" size="3" multiple>
+                <option name="clientAnimals" value="dog">Собака</option>
+                <option name="clientAnimals" value="cat">Кошка</option>
+                <option name="clientAnimals" value="pigeon">Голубь</option>
+                <option name="clientAnimals" value="capybara">Капибара</option>
+                <option name="clientAnimals" value="snake">Змея</option>
+                <option name="clientAnimals" value="wolf">Волк</option>
+                <option name="clientAnimals" value="goose">Гусь</option>
+                <option name="clientAnimals" value="frog">Лягушка</option>
+                <option name="clientAnimals" value="dinosaur">Динозавр</option>
+                <option name="clientAnimals" value="panda">Панда</option>
+                <option name="clientAnimals" value="parrot">Попугай</option>
+                <option name="clientAnimals" value="blobfish">Рыба-капля</option>
             </select>
         </p>
         <p>
             <label for="clientToday">Кто ты сегодня?</label>
-            <select name="clientToday">
-                <option name="clientToday" value="Уставшая булочка">Уставшая булочка</option>
-                <option name="clientToday" value="Счастливый пирожок">Счастливый пирожок</option>
-                <option name="clientToday" value="Дохлый мух">Дохлый мух</option>
-                <option name="clientToday" value="Наташа">Наташа</option>
-                <option name="clientToday" value="Одинокий волк">Одинокий волк</option>
-                <option name="clientToday" value="Вареное яичко<">Вареное яичко</option>
-                <option name="clientToday" value="Илюша">Илюша</option>
-                <option name="clientToday" value="Голодный пузанчик">Голодный пузанчик</option>
-                <option name="clientToday" value="Злая зефирка">Злая зефирка</option>
-                <option name="clientToday" value="Неуклюжая пироженка">Неуклюжая пироженка</option>
-                <option name="clientToday" value="Обиженая печенька">Обиженая печенька</option>
+            <select id="clientToday" name="clientToday">
+                <option name="clientToday" value="tired bun">Уставшая булочка</option>
+                <option name="clientToday" value="happy pie">Счастливый пирожок</option>
+                <option name="clientToday" value="dead fly">Дохлый мух</option>
+                <option name="clientToday" value="Natasha">Наташа</option>
+                <option name="clientToday" value="alone wolf">Одинокий волк</option>
+                <option name="clientToday" value="boiled egg<">Вареное яичко</option>
+                <option name="clientToday" value="Iliusha">Илюша</option>
+                <option name="clientToday" value="hungry potbelly">Голодный пузанчик</option>
+                <option name="clientToday" value="angry marshmallow">Злая зефирка</option>
+                <option name="clientToday" value="awkward cupcake">Неуклюжая пироженка</option>
+                <option name="clientToday" value="offended cookie">Обиженая печенька</option>
             </select>
         </p>
         <p>
             <label for="clientAbout">О себе:</label>
-            <br/><textarea name="clientAbout" rows="5" cols="80" placeholder="Всего несколько строк.."></textarea>
+            <br/><textarea id="clientAbout" name="clientAbout" rows="5" cols="80" placeholder="Всего несколько строк.."></textarea>
         </p>
         <p>
             <button type="submit">Подобрать мемы</button>
